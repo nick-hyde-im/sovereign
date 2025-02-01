@@ -1,0 +1,9 @@
+node_modules
+public
+dist
+
+vite.config.ts
+tailwind.config.cjs
+postcss.config.cjs
+
+src/routeTree.gen.ts

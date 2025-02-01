@@ -1,0 +1,42 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react-hooks/recommended",
+    "prettier",
+    "plugin:prettier/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "project": "./tsconfig.json",
+    "sourceType": "module"
+  },
+  "plugins": [
+    "@typescript-eslint",
+    "react-refresh",
+    "prettier"
+  ],
+  "rules": {
+    "@typescript-eslint/consistent-type-imports": "error",
+    "no-unused-vars": "off",
+    "no-duplicate-imports": "off",
+    "prettier/prettier": "error",
+    "react-refresh/only-export-components": [
+      "warn",
+      { "allowConstantExport": true }
+    ]
+  },
+  "settings": {
+    "jest": {
+      "version": "^28.0.0"
+    }
+  }
+}
