@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://nick-hyde-im.github.io/sovereign/",
   "scripts": {
     "dev": "vite",
     "dev:sb": "yarn sb:start && vite",
